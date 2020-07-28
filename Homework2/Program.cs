@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Homework2
+namespace Homework2         // Aplikacja losuje liczbę a użytkownik musi odgadnąć ją poprzez wpisanie liczby w konsoli. Aplikacja zwraca informację o tym czy użytkownik trafił. 
 {
     class Program
     {
