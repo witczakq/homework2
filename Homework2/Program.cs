@@ -31,17 +31,11 @@ namespace Homework2         // Aplikacja losuje liczbę a użytkownik musi odgad
                         result = true;
                     }
                     else if (userNumber > guessNumber)
-                    {
                         Console.WriteLine("\nPodałeś większą liczbę. Spróbuj ponownie!");
-                        result = false;
-                        trialCounter++;
-                    }
                     else if (userNumber < guessNumber)
-                    {
                         Console.WriteLine("\nPodałeś mniejszą liczbę. Spróbuj ponownie!");
-                        result = false;
-                        trialCounter++;
-                    }
+                
+                trialCounter++;
                 }
                 Console.WriteLine("\nDziękuję za udział w grze!\n");
             }
